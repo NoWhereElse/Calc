@@ -74,6 +74,7 @@ class Calculator {
      * @assert (3, 2) == 6
      */
     public function multiply($a, $b) {
+        //Test comment
         return $a * $b;
     }
 
@@ -82,7 +83,7 @@ class Calculator {
      * @assert (1, 1) == 1
      * @assert (6, 2) == 3
      */
-    public function divide($a, $b) {
+    public function Caldivide($a, $b) {
         if ($b == 0) {
             throw new InvalidArgumentException('Cannot divide by zero!!!!!');
         }
