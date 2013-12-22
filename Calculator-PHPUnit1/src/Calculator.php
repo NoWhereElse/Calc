@@ -84,7 +84,7 @@ class Calculator {
      */
     public function divide($a, $b) {
         if ($b == 0) {
-            throw new InvalidArgumentException('Cannot divide by zero');
+            throw new InvalidArgumentException('Cannot divide by zero!!!!!');
         }
         return $a / $b;
     }
