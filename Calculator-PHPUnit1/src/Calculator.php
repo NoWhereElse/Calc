@@ -92,6 +92,17 @@ class Calculator {
         return $a / $b;
     }
 
+/**
+     * @assert (0, 1) == 0
+     * @assert (1, 1) == 1
+     * @assert (6, 2) == 3
+     */
+    public function percent($a, $b) {
+        if ($b == 0) {
+            throw new InvalidArgumentException('Cannot divide by zero!!!!!');
+        }
+        return ($a / $b)*100;
+    }
 }
 
 ?>
