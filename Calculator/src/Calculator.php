@@ -53,6 +53,7 @@ class Calculator {
      * @assert (1, 1) == 2
      */
     public function plus($a, $b) {
+        //add comments
         return $a + $b;
     }
 
